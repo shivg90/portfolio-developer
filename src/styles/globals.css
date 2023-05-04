@@ -26,4 +26,5 @@
   button {
     @apply shadow-xl hover:bg-transparent shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-pink-800 to-pink-400 text-white
   }
+
 }

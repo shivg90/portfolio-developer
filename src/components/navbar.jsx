@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineHome} from 'react-icons/ai'
 
 const Navbar = () => {
+
     return (
-        <div className="fixed top-0 w-full h-20 shadow-xl z-[100]">
+        <div className="bg-slate-200 fixed top-0 w-full h-20 shadow-xl z-[100] flex items-center justify-between px-8 xl:px-16 style={{ zIndex: 999 }}">
+            <div className='flex justify-start items-center'>
+            <Link href='/'>
+              <div className=''>
+                <AiOutlineHome
+                  size={25}
+                />
+              </div>
+            </Link>
+            </div>
             <div className="flex justify-end items-center w-full h-full px-2 2xl:px-16">
                 <div> 
                     <ul className="hidden md:flex"> 
@@ -28,6 +38,8 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+    
+       
     )
 } 
 

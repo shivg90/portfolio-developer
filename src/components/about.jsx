@@ -17,7 +17,7 @@ const About = () => {
                 I love seeing my ideas and code come to life in client-side projects, and I am excited to continue learning and developing.
                 </p>
             </div>
-            <div className="w-full h-auto m-auto shadow-sm shadow-gray-400 flex items-center justify-center">
+            <div className="w-full h-auto m-auto flex items-center justify-center">
                 <Image
                 className="mx-auto rounded-full relative overflow-hidden"
                 src="/profile-picture.png"
