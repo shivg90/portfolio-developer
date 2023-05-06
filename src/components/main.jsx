@@ -16,8 +16,8 @@ const Main = () => {
                         A Front-End Web Developer
                     </h1>
                     <p className="py-6 text-gray-600 max-w-[70%] mx-auto text-center">
-                        I&apos;m a recent graduate of a Full-Stack Web Development course looking to speciaise in Frontend projects.
-                        With a background in Merchandise Planning and Supply Chain Management I am a career-changer hoping to utilize my skills both old and new.
+                        I&apos;m a recent graduate of a Full-Stack Web Development course looking to specialise in Frontend projects.
+                        With a background in business and a passion for creativity, I am a career-changer hoping to utilize my skills both old and new.
                     </p>
 
                     <div className='flex items-center justify-center max-w-[330px] m-auto py-6'>
@@ -26,7 +26,7 @@ const Main = () => {
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaLinkedinIn />
                         </div>
                         </a>
@@ -35,17 +35,17 @@ const Main = () => {
                         target='_blank'
                         rel='noreferrer'
                         >
-                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaGithub />
                         </div>
                         </a>
-                        <Link href='/#contact'>
-                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <Link href='mailto:siobhangatenby@gmail.com'>
+                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineMail />
                         </div>
                         </Link>
                         <Link href='/resume'>
-                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <BsFillPersonLinesFill />
                         </div>
                         </Link>
