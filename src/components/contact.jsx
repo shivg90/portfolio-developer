@@ -17,6 +17,19 @@ const Contact = () => {
             If you are interested in collaborating with me or have any questions, please get in touch! 
           </p>
           </div>
+          <div className="w-full flex items-center justify-center flex-wrap md:flex-nowrap">
+          <div className="pt-5 pb-5 px-10 mt-10 w-fit shadow-xl shadow-gray-400 rounded-xl cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className='text-gray-700 py-4'>
+          <p className="flex items-center justify-center text-xl font-bold">
+            siobhangatenby@gmail.com
+          </p>
+          <p className="flex items-center justify-center text-xl font-bold">
+            +4917646611081
+          </p>
+          </div>
+          </div>
+          </div>
+          
           <div>
             <div className="flex items-center justify-center max-w-[330px] m-auto py-6 flex-wrap md:flex-nowrap">
             <p className="uppercase pt-8">Connect With Me</p>
@@ -46,13 +59,6 @@ const Contact = () => {
                     <AiOutlineMail />
                     </div>
                     </Link>
-                    {/* 
-                    <Link href='/resume'>
-                    <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-8 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <BsFillPersonLinesFill />
-                    </div>
-                    </Link>
-                    */}
                 <a
                     href='https://twitter.com/shivg90'
                     target='_blank'
