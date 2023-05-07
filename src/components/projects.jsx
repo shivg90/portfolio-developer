@@ -93,10 +93,9 @@ const Projects = () => {
           </div>
             <p className='p-4 h-auto w-full text-gray-700 text-lg'>
               A Chat App for mobile devices built with <span className="font-bold">React-Native</span> and Expo.
-              a basic user interface has been implemented that allows users to enter their screen name, chat, share images and their location. 
+              A basic user interface has been implemented that allows users to enter their screen name, chat, share images and their location. 
               <br></br>
                <span className="font-bold">Firebase</span> has been used to store user data.
-              
             </p>
             </div>
 
@@ -168,7 +167,7 @@ const Projects = () => {
             </div>
           </div>
             <p className='p-4 h-auto w-full text-gray-700 text-lg'>
-              The client side of a movie broswing app, made with <span className="font-bold">Angular-Material</span> and written with <span className="font-bold">Typescript</span>.
+              The client side of a movie browsing app, made with <span className="font-bold">Angular-Material</span> and written with <span className="font-bold">Typescript</span>.
               Users can login, signup, browse movie information and create a favorites list.
             </p>
             </div>
