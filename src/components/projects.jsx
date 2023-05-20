@@ -138,6 +138,9 @@ const Projects = () => {
             <Link href="https://shivg90-myflix-movie-app.netlify.app/login">
             <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer m-2 w-20'>DEMO</p>
             </Link>
+            <Link href="/casestudy">
+            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer m-2 w-20'>CASE STUDY</p>
+            </Link>
             </div>
             </div>
           </div>
