@@ -14,16 +14,17 @@ const Contact = () => {
           <div> 
           <div>
           <p className='text-gray-700 py-4'>
-            If you are interested in collaborating with me or have any questions, please get in touch! 
+            Feel free to test my projects, browse my GitHub or download my Resume to get a better feel for what I can do. 
+            <p>Are you interested in collaborating with me or have questions? Let's get in touch!</p>
           </p>
           </div>
           <div className="w-full flex items-center justify-center flex-wrap md:flex-nowrap">
-          <div className="pt-5 pb-5 px-10 mt-10 w-fit shadow-xl shadow-gray-400 rounded-xl cursor-pointer hover:scale-110 ease-in duration-300">
-          <div className='text-gray-700 py-4'>
-          <p className="flex items-center justify-center text-xl font-bold">
+          <div className="pt-2 pb-2 px-10 mt-5 w-fit shadow-xl shadow-gray-400 rounded-xl cursor-pointer hover:scale-110 ease-in duration-300">
+          <div className='text-gray-700 py-2'>
+          <p className="flex items-center justify-center text-lg font-bold">
             siobhangatenby@gmail.com
           </p>
-          <p className="flex items-center justify-center text-xl font-bold">
+          <p className="flex items-center justify-center text-lg font-bold">
             +4917646611081
           </p>
           </div>
