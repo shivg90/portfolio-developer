@@ -37,7 +37,7 @@ const Contact = () => {
             <div>
             <div className='flex items-center justify-center max-w-[330px] m-auto py-2'>
                 <a
-                    href='https://www.linkedin.com/in/siobhan-gatenby-7a18b34b/'
+                    href='https://www.linkedin.com/in/siobhangatenby'
                     target='_blank'
                     rel='noreferrer'
                     >
