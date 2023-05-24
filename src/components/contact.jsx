@@ -1,8 +1,7 @@
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import Link from 'next/link';
-import { FaGithub, FaLinkedin, FaTwitter, FaMedium } from 'react-icons/fa';
-//import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
@@ -15,7 +14,7 @@ const Contact = () => {
           <div>
           <p className='text-gray-700 py-4'>
             Feel free to test my projects, browse my GitHub or download my Resume to get a better feel for what I can do. 
-            <p>Are you interested in collaborating with me or have questions? Let's get in touch!</p>
+            <p>Are you interested in collaborating with me or have questions? Let&apos;s get in touch!</p>
           </p>
           </div>
           <div className="w-full flex items-center justify-center flex-wrap md:flex-nowrap">
