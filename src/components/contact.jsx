@@ -90,7 +90,7 @@ const Contact = () => {
         </div>
         <div className="text-center pb-8 text-gray-700">
             <p className="text-xs">Created with Next.js and Tailwind CSS by Siobhan Gatenby.</p>
-            <a href="/impressum" className="underline cursor-pointer">Impressum</a>
+            <Link href="/impressum" className="underline cursor-pointer">Impressum</Link>
         </div>
       </div>
     );
