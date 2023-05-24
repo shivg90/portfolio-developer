@@ -11,13 +11,14 @@ const About = () => {
                 </p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-700 text-lg'>
-                  I am open-minded and always looking to challenge myself. That’s why I decided to study a full-time 6 month course in Full-Stack Web Development, where I gained experience in using essential technologies to build a number of projects in Javascript.  With next-to-none prior skills, I’ve went from drowning in div’s to being able to develop using the MERN/MEAN tech stack.  I’ve also picked up skills in wire framing, user flows, testing and debugging.
+                  I am open-minded and always looking to challenge myself. That’s why I decided to study a full-time 6 month course in Full-Stack Web Development, where I gained experience in using essential technologies to build a number of projects with Javascript.  
                 </p>
                 <p className='py-2 text-gray-700 text-lg'>
-                  Thanks to my background as a business planner, I am already well-equipped with transferable skills such as project management, organisation, collaboration and a keen eye for details.
+                  Thanks to my background as a business planner, I am already well-equipped with transferable skills such as project management, problem solving, collaboration and a keen eye for details which has helped greatly with the transition into web development.
                 </p>
                 <p className='py-2 text-gray-700 text-lg'>
-                My motivation to work in Web Dev is in the directon of front-end development and CSS, as I love seeing my ideas and functions come to life! 
+                What drives me to do this kind of work is that every day is varied and presents new learning opportunities. From debugging to creating new features, UI design and trying out new frameworks, both my analytical and creative mindsets are challenged.  I have also enjoyed the unexpected feeling of community since starting my journey into the tech world, where developers are supportive of newcomers to the field and passionate about sharing knowledge.
+
                 </p>
             </div>
             <div className="w-full h-auto m-auto flex items-center justify-center">

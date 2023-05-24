@@ -60,15 +60,6 @@ const Contact = () => {
                     </div>
                     </Link>
                 <a
-                    href='https://twitter.com/shivg90'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                    <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <FaTwitter />
-                    </div>
-                </a>
-                <a
                     href='https://medium.com/@siobhangatenby'
                     target='_blank'
                     rel='noreferrer'
@@ -80,17 +71,26 @@ const Contact = () => {
             </div>
             </div>
           </div>
+            <div className="flex items-center justify-center py-6">
+            <Link href='/files/Resume_Siobhan_Gatenby.pdf'>
+            <p className='pb-5 mt-10 text-center uppercase pt-5 py-5 px-5 rounded-lg bg-pink-900 text-white font-bold text-lg cursor-pointer hover:scale-110 ease-in duration-300'>Download my Resume</p>
+            </Link>
+            </div>
           </div>
         </div>
         <div className='flex justify-center py-12'>
           <Link href='/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-pink-950'
+                  className='text-pink-900'
                   size={30}
                 />
               </div>
           </Link>
+        </div>
+        <div className="text-center pb-8 text-gray-700">
+            <p className="text-xs">Created with Next.js and Tailwind CSS by Siobhan Gatenby.</p>
+            <a href="/impressum" className="underline cursor-pointer">Impressum</a>
         </div>
       </div>
     );

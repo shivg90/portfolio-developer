@@ -13,10 +13,10 @@ const Main = () => {
                         Hi, I&apos;m <span className="text-pink-900" >Siobhan</span>
                     </h1>
                     <h1 className="py-2 text-gray-700">
-                        A Front-End Web Developer
+                        A Full-Stack Web Developer
                     </h1>
-                    <p className="py-6 text-gray-600 max-w-[70%] mx-auto text-center">
-                        I&apos;m a recent graduate of a Full-Stack Web Development course looking to specialise in Frontend projects.
+                    <p className="py-6 text-gray-700 max-w-[70%] mx-auto text-center">
+                        I&apos;m a Berlin based graduate of a Full-Stack Web Development course looking for my first junior role.  I’d love to specialise in Frontend projects with CSS, and am open to freelance, hybrid and remote work.
                         With a background in business and a passion for creativity, I am a career-changer hoping to utilize my skills both old and new.
                     </p>
 
@@ -44,7 +44,7 @@ const Main = () => {
                             <AiOutlineMail />
                         </div>
                         </Link>
-                        <Link href='/files/CV_Siobhan_Gatenby.pdf'>
+                        <Link href='/files/Resume_Siobhan_Gatenby.pdf'>
                         <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <BsFillPersonLinesFill />
                         </div>

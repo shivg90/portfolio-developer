@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import {AiOutlineHome} from 'react-icons/ai'
 
 const Navbar = () => {
 
@@ -8,10 +7,8 @@ const Navbar = () => {
         <div className="bg-slate-200 fixed top-0 w-full h-20 shadow-xl z-[100] flex items-center justify-between px-8 xl:px-16">
             <div className='flex justify-start items-center'>
             <Link href='/'>
-              <div className=''>
-                <AiOutlineHome
-                  size={25}
-                />
+              <div className="fixed top-0 h-20 flex items-center">
+                <p className="text-3xl">S | G </p>
               </div>
             </Link>
             </div>
