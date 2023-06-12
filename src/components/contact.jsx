@@ -12,10 +12,10 @@ const Contact = () => {
           <h2 className='py-4'>Get In Touch</h2>
           <div> 
           <div>
-          <p className='text-gray-700 py-4'>
-            Feel free to test my projects, browse my GitHub or download my Resume to get a better feel for what I can do. 
+          <div className='text-gray-700 py-4'>
+            <p>Feel free to test my projects, browse my GitHub or download my Resume to get a better feel for what I can do.</p>
             <p>Are you interested in collaborating with me or have questions? Let&apos;s get in touch!</p>
-          </p>
+          </div>
           </div>
           <div className="w-full flex items-center justify-center flex-wrap md:flex-nowrap">
           <div className="pt-2 pb-2 px-10 mt-5 w-fit shadow-xl shadow-gray-400 rounded-xl cursor-pointer hover:scale-110 ease-in duration-300">
@@ -72,7 +72,7 @@ const Contact = () => {
             </div>
           </div>
             <div className="flex items-center justify-center py-6">
-            <Link href='/files/Resume_Siobhan_Gatenby.pdf'>
+            <Link href='/files/Gatenby-Siobhan-Resume.pdf'>
             <p className='pb-5 mt-10 text-center uppercase pt-5 py-5 px-5 rounded-lg bg-pink-900 text-white font-bold text-lg cursor-pointer hover:scale-110 ease-in duration-300'>Download my Resume</p>
             </Link>
             </div>

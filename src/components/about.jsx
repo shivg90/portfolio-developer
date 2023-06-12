@@ -14,7 +14,7 @@ const About = () => {
                   I am open-minded and always looking to challenge myself. That’s why I decided to study a full-time 6 month course in Full-Stack Web Development, where I gained experience in using essential technologies to build a number of projects with Javascript.  
                 </p>
                 <p className='py-2 text-gray-700 text-lg'>
-                  Thanks to my background as a business planner, I am already well-equipped with transferable skills such as project management, problem solving, collaboration and a keen eye for details which has helped greatly with the transition into web development.
+                  Thanks to my background as a business planner and education in design, I am already well-equipped with transferable skills such as project management, design principles, problem solving, collaboration and a keen eye for details which has helped greatly with the transition into web development.
                 </p>
                 <p className='py-2 text-gray-700 text-lg'>
                 What drives me to do this kind of work is that every day is varied and presents new learning opportunities. From debugging to creating new features, UI design and trying out new frameworks, both my analytical and creative mindsets are challenged.  I have also enjoyed the unexpected feeling of community since starting my journey into the tech world, where developers are supportive of newcomers to the field and passionate about sharing knowledge.
