@@ -32,7 +32,7 @@ const Projects = () => {
             <Link href="https://github.com/shivg90/myFlix-client">
             <p className='text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-base cursor-pointer'>CODE</p>
             </Link>
-            <Link href="https://shivg90-myflix-movie-app.netlify.app/login">
+            <Link href="https://shivg90-myflix-movie-app.netlify.app">
             <p className='text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-base cursor-pointer'>DEMO</p>
             </Link>
             </div>
