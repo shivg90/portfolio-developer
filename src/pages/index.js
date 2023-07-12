@@ -18,6 +18,7 @@ export default function Home() {
         <title>Siobhan | Web Developer</title>
         <meta name="description" content="Portfolio website of Siobhan Gatenby full-stack web developer." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="web,developer,webdevelopment,portfolio,webdeveloper,frontend,javascript,react,next,tailwind" />
         <meta charSet="UTF-8"></meta>
         <link rel="icon" href="/favicon.ico" />
     </Head>
