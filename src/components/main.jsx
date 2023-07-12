@@ -1,12 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn, FaMedium } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 
 const Main = () => {
     return (
-        <div className="w-full h-screen text-center mt-4">
+        <div className="w-full h-screen text-center mt-6">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <h1 className="py-4 text-gray-700">
@@ -44,10 +43,17 @@ const Main = () => {
                             <AiOutlineMail />
                         </div>
                         </Link>
-                        <Link href='/files/Gatenby-Siobhan-Resume.pdf'>
+                        <Link href='https://medium.com/@siobhangatenby'>
                         <div className='mx-2 rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <BsFillPersonLinesFill />
+                            <FaMedium />
                         </div>
+                        </Link>
+
+                        
+                    </div>
+                    <div className="flex items-center justify-center py-6">
+                        <Link href='/files/Gatenby-Siobhan-Resume.pdf'>
+                            <p className='pb-5 mt-10 text-center uppercase pt-5 py-5 px-5 rounded-lg bg-pink-900 text-white font-bold text-lg cursor-pointer hover:scale-110 ease-in duration-300'>Download my Resume</p>
                         </Link>
                     </div>
 

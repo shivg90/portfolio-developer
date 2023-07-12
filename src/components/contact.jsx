@@ -8,31 +8,22 @@ const Contact = () => {
     return (
       <div id='contact' className='w-full lg:h-screen p-6'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-          <p className='text-xl tracking-widest uppercase'>Contact</p>
+          <p className='text-xl tracking-widest uppercase text-pink-900'>Contact</p>
           <h2 className='py-4'>Get In Touch</h2>
           <div> 
           <div>
           <div className='text-gray-700 py-4'>
             <p>Feel free to test my projects, browse my GitHub or download my Resume to get a better feel for what I can do.</p>
             <p>Are you interested in collaborating with me or have questions? Let&apos;s get in touch!</p>
+            <br></br>
+            <p className="text-pink-950 font-bold">Email: siobhangatenby@gmail.com</p>
           </div>
           </div>
-          <div className="w-full flex items-center justify-center flex-wrap md:flex-nowrap">
-          <div className="pt-2 pb-2 px-10 mt-5 w-fit shadow-xl shadow-gray-400 rounded-xl cursor-pointer hover:scale-110 ease-in duration-300">
-          <div className='text-gray-700 py-2'>
-          <p className="flex items-center justify-center text-lg font-bold">
-            siobhangatenby@gmail.com
-          </p>
-          <p className="flex items-center justify-center text-lg font-bold">
-            +4917646611081
-          </p>
-          </div>
-          </div>
-          </div>
+        
           
           <div>
             <div className="flex items-center justify-center max-w-[330px] m-auto py-6 flex-wrap md:flex-nowrap">
-            <p className="uppercase pt-8">Connect With Me</p>
+            <p className="uppercase pt-10 text-pink-900">Connect With Me</p>
             </div>
             <div>
             <div className='flex items-center justify-center max-w-[330px] m-auto py-2'>
@@ -71,24 +62,20 @@ const Contact = () => {
             </div>
             </div>
           </div>
-            <div className="flex items-center justify-center py-6">
-            <Link href='/files/Gatenby-Siobhan-Resume.pdf'>
-            <p className='pb-5 mt-10 text-center uppercase pt-5 py-5 px-5 rounded-lg bg-pink-900 text-white font-bold text-lg cursor-pointer hover:scale-110 ease-in duration-300'>Download my Resume</p>
-            </Link>
-            </div>
+            
           </div>
         </div>
         <div className='flex justify-center py-12'>
           <Link href='/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-pink-900'
+                  className='text-pink-950'
                   size={30}
                 />
               </div>
           </Link>
         </div>
-        <div className="text-center pb-8 text-gray-700">
+        <div className="text-center text-gray-700">
             <p className="text-xs">Created with Next.js and Tailwind CSS by Siobhan Gatenby.</p>
             <Link href="/impressum" className="underline cursor-pointer">Impressum</Link>
         </div>
