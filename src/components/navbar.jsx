@@ -18,6 +18,7 @@ const Navbar = () => {
               </div>
             </Link>
             </div>
+            
             <div className="flex justify-end items-center w-full h-full px-2 2xl:px-16">
                 <div> 
                     <ul className="hidden md:flex"> 
@@ -49,7 +50,7 @@ const Navbar = () => {
                   }
                 >
                     <div>
-                        <div className='flex w-full items-center justify-between'>
+                        <div className='flex w-full h-20 items-center justify-between'>
                             <p className="text-3xl">S | G </p>
                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                 <AiOutlineClose />
