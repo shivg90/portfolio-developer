@@ -32,9 +32,6 @@ const Projects = () => {
             <Link href="https://github.com/shivg90/myFlix-client">
             <p className='text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-base cursor-pointer'>CODE</p>
             </Link>
-            <Link href="https://shivg90-myflix-movie-app.netlify.app/login">
-            <p className='text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-base cursor-pointer'>DEMO</p>
-            </Link>
             </div>
             <div className="flex items-center justify-center mt-4">
             <Link href="/casestudy">
@@ -50,15 +47,6 @@ const Projects = () => {
               It was made with <span className="font-bold">React-Bootstrap</span> and uses <span className="font-bold"> Parcel</span> as its build tool.  The app is deployed on Netlify.
             </p>
             </div>
-          
-         
-          
-         
-          
-         
-        
-
-            
 
             <div className="relative items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group">
             <div className='relative flex items-center justify-center rounded-xl h-auto w-full hover:bg-gradient-to-r from-pink-900 to-pink-400'>   
@@ -109,8 +97,6 @@ const Projects = () => {
               It was built with <span className="font-bold">HTML, CSS, JavaScript, Jquery</span> and <span className="font-bold">Bootstrap</span> and the data is drawn from a public API.
             </p>
         </div>
-
-            
 
             <div className="relative items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group">
             <div className='relative flex items-center justify-center rounded-xl h-auto w-full hover:bg-gradient-to-r from-pink-900 to-pink-400'> 
